@@ -1,4 +1,4 @@
-Twitter: City Sentiment
+Twitter: City Mood
 ===
 
 ## How is your city feeling?
