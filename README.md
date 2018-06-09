@@ -5,7 +5,7 @@ Twitter: City Mood
 ### This python script will analyze tweets and tell you!
 
 # Implementation
-The script gathers tweets from a given location and counts the number of emotion-bearing words. After an hour, it tweets the emotion with the highest count (if the previous mood was different). You can see my example of the script in action in Los Angeles, CA at [@LosAngelesMood](http://www.twitter.com/LosAngelesMood).
+The script gathers tweets from a given location and counts the number of emotion-bearing words. After one hour, it tweets the emotion with the highest count (if the previous mood was different). You can see my example of the script in action in Los Angeles, CA at [@LosAngelesMood](http://www.twitter.com/LosAngelesMood).
 
 # How to Install
 The script utilizes the [requests](http://docs.python-requests.org/en/latest/) library: primarily requests and requests_oauthlib. If you do not already have this installed, you can run the command "pip install requests" in your command line/terminal of choice.

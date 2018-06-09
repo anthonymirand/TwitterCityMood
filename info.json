@@ -1,0 +1,12 @@
+{
+  "username"    : "losangelesmood",
+  "coordinates" : "33.988,-118.180",
+  "radius"      : "19.263mi",
+  "city"        : "Los Angeles",
+  "zone"        : "US/Pacific",
+
+  "consumer_key"    : "",
+  "consumer_secret" : "",
+  "access_token"    : "",
+  "access_secret"   : ""
+}
