@@ -30,7 +30,7 @@ Below are the some of required configuration variables in *info.json* to run the
 
 You will need to set up a [twitter account](https://twitter.com/signup) for the mood to be posted. Then, create a twitter app [here](https://apps.twitter.com/app/new) with your newly-created account. You will need to authorize this app to post to your account, which may require email verification and a phone number. Next, follow the instructions [here](https://dev.twitter.com/oauth/overview/application-owner-access-tokens) to create the necessary OAuth tokens for your app.
 
-### Files and Folders:
+### Important Files and Folders:
 * __*info.json*__: configuration file to setup location parameters and Twitter credentials.
 * __*twitter_mood_demo.py*__: script that performs tweet emotion analysis and prints out the emotion frequencies.
 * __*twitter_mood.py*__: script that performs tweet emotion analysis and tweets to the designated Twitter account.
