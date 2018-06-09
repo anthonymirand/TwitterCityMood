@@ -5,12 +5,12 @@ Twitter City Mood
 
 This script gathers tweets from a given location and analyzes the tweets using a trained recurrent neural network (RNN). It then tweets the emotion with the highest frequency (if the previous mood was different). You can see my example of this script in action in Los Angeles, CA at [@LosAngelesMood](http://www.twitter.com/LosAngelesMood).
 
-### Implementation
+### Implementation:
 This script makes use of the trained emotion models from [@nikicc's Twitter Emotion Recognition](https://github.com/nikicc/twitter-emotion-recognition). This project trained a recurrent neural network on tweets queried using Ekman's six basic emotions. Edits were made to make the scripts/models Python 2.7 compatible. More specific data, methods, and results can be seen in the following paper:
 
 *Colnerič, N., & Demšar, J. (2018). Emotion Recognition on Twitter: Comparative Study and Training a Unison Model. IEEE Transactions on Affective Computing, PP (99), 1. https://doi.org/10.1109/TAFFC.2018.2807817*
 
-### Configuration
+### Configuration:
 Below are the some of required configuration variables in *info.json* to run the script above. You may want to look up the coordinates of your city of choice, and use a [radius finder](http://www.freemaptools.com/radius-around-point.htm) to find an accurate radius around your city.
 
 ```
