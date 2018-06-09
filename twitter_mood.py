@@ -45,9 +45,9 @@ class TwitterMood():
     self.time_zone    = pytz.timezone(info['zone'])
     self.current_time = datetime.now(self.time_zone).strftime('%m/%d/%Y %H:%M')
     self.twitter = OAuth1Session(client_key=info['consumer_key'],
-                            client_secret=info['consumer_secret'],
-                            resource_owner_key=info['access_token'],
-                            resource_owner_secret=info['access_secret'])
+                                 client_secret=info['consumer_secret'],
+                                 resource_owner_key=info['access_token'],
+                                 resource_owner_secret=info['access_secret'])
     self.tweets = self._get_tweets()
     self.emotion_count = self._analyze_tweets()
     self.mood = self._get_mood()
