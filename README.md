@@ -3,9 +3,9 @@ Twitter City Mood
 
 ## How is your city feeling? This python script will analyze tweets and tell you!
 
-This script gathers tweets from a given location and analyzes the tweets using a trained recurrent neural network (RNN). It then tweets the emotion with the highest frequency (if the previous mood was different). 
+This script gathers tweets from a given location and analyzes the tweets using a trained recurrent neural network (RNN). It then tweets the emotion with the highest frequency (if the previous mood was different).
 
-You can see my example of this script in action for Los Angeles, CA at [@LosAngelesMood](http://www.twitter.com/LosAngelesMood), and see some results below (collected June 8, 2018).
+You can see my example of this script in action for Los Angeles, CA at [@LosAngelesMood](http://www.twitter.com/LosAngelesMood), and see some results below (collected January 3, 2019).
 
 ![alt text](https://github.com/anthonymirand/TwitterCityMood/blob/master/etc/los_angeles_mood.png)
 
